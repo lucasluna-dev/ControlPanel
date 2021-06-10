@@ -12,4 +12,10 @@
 
 2 - Depois de criar o banco de dados você irá enviar todos os arquivos do site para sua hospedagem. Segui esse outro tutorial <a href="https://www.youtube.com/watch?v=60c6b8AESC4">Como subir os arquivos pelo Gerenciador de Arquivos pela Hospedagem cPanel</a>.
 
-<H2>FIM.</H2>
+3 - O usuario e senha para acessar o painel de controle é admim admim.
+
+4 - Para trocar as informações do usuario como senha e nome, basta clicar na sessão de editar usuario dentro do painel de controle. 
+
+5 - Na folha de estilo css você pode trocar as cores do site.
+
+<H3>FIM!</H3>

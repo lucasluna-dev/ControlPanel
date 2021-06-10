@@ -46,4 +46,6 @@
             die();
         }
     }
+
+    //podemos acessar esse arquivo em todo os lugares.
 ?>

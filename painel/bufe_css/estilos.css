@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+   
+}
+html,body{
+    height: 100%;
+    background-color: rgb(214, 214, 214);
+}
+
+body{
+    overflow-x:hidden;
+}
+
+    /*começo da pagina de login*/
+
+.container-login form{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width:500px;
+    padding: 40px 5%;
+    background-color: rgb(216, 19, 216) ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px; 
+}
+
+.container-login h2{
+    color: white;
+    font-weight: bold;   
+    font-family: 'Lobster', cursive;
+}
+
+.home-mobile{
+    display: none;   
+}
+
+.container-login input[type="text"], .container-login input[type="password"]{
+    width: 100%;
+    max-width: 350px;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 0;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: 0;
+    
+   
+}
+
+.container-login input[type="submit"]{
+    width: 100%;
+    max-width: 160px;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 0;
+    background-color: #0089ac;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 0;
+} /*FINAL do Estilo da pagina de login */
+
+
+textarea{
+    width: 100%;  
+    height: 120px;
+    margin-top: 10px;
+    padding-left: 0;
+    border: 0;
+    border: 1px solid black ;
+    font-weight: bold;
+    font-size: 16px;
+    outline: 0;
+    resize: vertical;
+} /*FINAL do Estilo da pagina de login */
+
+    /* Começo do painell de controle*/
+
+.clear{clear: both;}
+.center{
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    left: 250px;
+    padding: 10px 0;
+    background-color: #78989c;
+    width: calc(100% - 250px);
+}
+
+div.menu{
+    float: left;
+    width: 250px;
+    height: 100%;
+    background-color: #455a64;
+    overflow-y: auto;
+    overflow-x:hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px 0;
+    margin: 0  auto;
+    
+}
+
+.menu-wraper{
+    width: 250px;
+}
+
+
+.bnts-header{
+    padding: 0 2%;
+    float: right;
+    background-color: transparent;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 7px;
+}
+
+ .bnts-header a:nth-of-type(1){
+    padding: 5px;
+    border-radius: 20px;
+    background:green;
+    color: white;
+    text-decoration: none;
+}
+
+.bnts-header a:nth-of-type(2){
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    background:white;
+    color: rgb(121, 3, 3);
+    
+}
+
+.icon-menu{
+    color: white;
+    cursor: pointer;
+    margin-left: 12px;
+    text-align: center;
+    float: left;
+    
+}
+
+.fa-bars{
+    font-size: 32px;
+}
+
+
+ .box-usuario{
+   margin: 0 auto;
+   
+ }
+
+
+.items-menu{
+	margin-top: 30px;
+   
+}
+
+.items-menu h2{
+	text-align: left;
+	font-weight: normal;
+	font-size: 16px;
+	background: #2F3D42;
+	color: white;
+	padding:8px;
+}
+
+.items-menu a{
+	display: block;
+	padding: 8px;
+	font-weight: normal;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	border-bottom: 2px solid #2F3D42;
+}   
+
+ .avatar-usuario{
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    border-radius:50% ;
+    border: 1px solid #243136;
+    text-align: left; 
+    margin-top: 10px;
+    
+}
+    
+ .avatar-img{
+    margin: 0 auto;
+    width: 100px;
+    height: 80px;
+    background-image: url(../images/avatar-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    top: 45%;
+    left: 40%;
+    position: relative;
+    
+ }
+
+ .img-usuario{
+    width: 130px;
+    height: 130px;
+    margin: 0  auto;
+  
+}
+
+.img-usuario img{
+    width: 100%;
+    height: 130px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: relative;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+ .nome-usuario{
+    text-align: center;
+}
+
+.nome-usuario { 
+    color: white;
+    margin-top:10px;
+    line-height: 20px;
+
+}
+
+    /*CONTEUDO PRINCIPAL DO PAINEL*/
+
+.w100{
+    width: 100%;
+}
+
+.w48{
+    width: 49%;
+    background-color: green !important;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+.content{
+    width: calc(100% - 250px);
+    position: relative;
+    left: 250px;
+    padding:2%;
+    
+}
+
+.box-content{
+    width:100%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom:20px;
+}
+
+.box-content .fa-user-friends{
+    color: green;
+    
+ }
+
+.box-conteudo{
+    border: 2px solid silver;
+    margin-top:50px;
+    padding: 10px;
+}
+
+.box-conteudo .fa-user-friends{
+   color: orange;
+   
+}
+
+/* Box metricas*/
+
+.box-metricas{
+    font-weight: normal;
+    margin: 16px 0;
+    padding: 0 15px;
+}
+
+.metricas-single{
+    float: left;
+    position: relative;
+    width: 33.3%;
+    padding: 10px;
+    border: 5px solid white;
+   
+}
+
+.box-metricas-wraper{
+    padding:10px 20px;
+    text-align: left;
+    color: white;
+    
+}
+
+.m0{
+    background-color: #F4B03E;
+
+}
+.m1{
+    background: #E05C4E;
+}
+.m2{
+   background-color: #1c682b;
+}
+
+.box-metricas-wraper h2{
+	font-size: 25px;
+}
+
+.box-metricas-wraper p{
+	padding: 5px 0;
+	font-size: 22px;
+    font-weight: bold;
+}
+
+/* tabela responsive*/
+
+.table-responsive{
+   width: 100%;
+    margin:15px auto;
+    text-align: center;
+}
+
+.row:nth-of-type(1){
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.col{
+    float: left;
+    width: 50%;
+}
+
+.col,span{
+    margin-top: 10px;
+ }
+
+/* Editar Usuario */
+
+.box-content form{
+    margin: 30px 0;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.box-content form label{
+    font-size: 17px;
+    font-weight: 300;
+    color:black;
+    display: block;
+
+}
+
+.box-content form input[type="text"],
+.box-content form input[type="password"]
+{
+    font-size: 16px;
+    font-weight:noraml ;
+    color: black;
+    width: 100%;
+    height: 40px ;
+    padding-left: 8px;
+    margin-top: 10px;
+    outline: 0;
+    
+}
+
+.box-content form input[type="file"]{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+.box-content form input[type="submit"]{
+    margin-top: 10px;
+    padding: 8px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    background: rgb(89, 133, 0);
+    border-radius: 20px;
+}
+
+div.mensagem{
+    width: 100%;
+    background: rgb(111, 165, 2);
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.erro{
+    width: 100%;
+    background: rgb(155, 25, 25);
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.menu-active{
+    background-color: #013d5c;
+}
+
+.menu-active::before{
+    content: '>> ';
+    font-size: 17px;
+}
+
+.form-group-login{
+    margin-top: 10px;
+    font-size: 22px;
+    
+}
+
+/* Tabela de depoimentos*/
+
+.wraper-table{
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    margin: 20px 0;
+}
+
+table tr:nth-of-type(1){
+    background-color: rgb(10, 10, 95);
+    color: white;
+}
+
+table td{
+   padding: 8px;
+   text-align: center;
+}
+
+table a.btn{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+   
+    
+}
+
+
+
+.paginacao{
+    text-align: center;
+}
+
+.paginacao a{
+    font-size: 14px;
+    margin: 0 8px;
+    display: inline-block;
+    padding: 3px 4px;
+    border: 1px solid rgb(180, 180, 180);
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.paginacao a.pag-selectd{
+    background: rgba(200,200,200);
+}
+
+a.btn.edite{background-color: rgb(6, 78, 24);}
+a.btn.delete{background-color: rgb(219, 62, 35);}
+
+
+@media screen and (max-width: 1024px){
+    .metricas-single{
+        float: left;
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        border: 5px solid white;
+       
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    
+
+    .bnts-header{
+        width: 94%;
+    }
+
+    div.menu{
+        display: none;
+    }
+
+    header{
+        width: 100%;
+        left: 0;
+    }
+
+    .content{
+        width: 100%;
+        left: 0;
+    }
+
+    .box-usuario{
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        position: relative;
+        width: 100%;
+        transform: translate(-50%,10%);
+        top: 50% ;
+        left: 50% ;
+    }
+}
+
+@media screen  and (max-width: 600px){
+    .metricas-single{
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width: 500px){
+    .metricas-single{
+        width: 100%;
+    }
+
+
+    .col{
+        float: left;
+        width:100%;
+    }
+
+    .bnts-header{
+        width: 90%;
+       
+    }
+}
+
+
+@media screen  and (max-width: 414px){
+
+   
+    .box-content h2{
+        font-size: 20px;
+    }
+}
+
+@media screen  and (max-width: 400px){
+
+    .box-usuario{
+        margin-left: -10px;
+    }
+
+    .menu-wraper{
+        width: 250px;   
+    } 
+
+    .box-content h2{
+        font-size: 20px;
+    }
+
+    .bnts-header{
+        width: 88%;
+    }
+}
+
+@media screen  and (max-width: 375px){
+
+
+    .box-usuario{
+        margin-left: -18px;
+        position: relative;
+    }
+
+    .bnts-header{
+        width: 88%;
+    }
+
+    .col,span{
+       margin-top: 10px;
+    }
+}
+
+@media screen  and (max-width: 320px){
+
+  
+    .menu-wraper{
+        width: 250px;   
+    }
+
+    header{
+        width: 400px;
+    }
+    
+    .box-usuario{
+        margin-left: -18px;
+    }
+    .bnts-header{
+        float: left;
+        width: 75%;
+        background-color: transparent;
+    }
+
+    .mover-home{
+        display: none;
+    }
+    
+    .home-mobile{
+        display: block;   
+    }
+    
+}

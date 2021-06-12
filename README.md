@@ -6,9 +6,9 @@
 
 <H1>Features</H1>
 
-✅ JavaScript / Jquery - Usado para fazer animações,redirecionar url, e alertas.
-✅ PHP - Usado para fazer todo o back-end do painel como, orientação a objetos.
-✅ SLQ - Usado para se comunicar com o banco de dados.
+<p>✅ JavaScript / Jquery - Usado para fazer animações,redirecionar url, e alertas.</p>
+<p>✅ PHP - Usado para fazer todo o back-end do painel como, orientação a objetos.</p>
+<p>✅ SLQ - Usado para se comunicar com o banco de dados.</p>
 
 
 <H1>Pré requisitos</H1>

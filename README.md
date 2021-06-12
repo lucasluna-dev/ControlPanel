@@ -1,22 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-</head>
-<body>
 
-<H1>Projeto CRUD</H1>
+
+<H1>Painel de controle</H1>
 
 <P>Site com painel de controle onde podemos alterar os conteúdos do site. <br> Podemos cadastrar serviços,slide,depoimento de clientes e muito mais.</P>
 
 <H1>Features</H1>
-<i class="fab fa-js"></i>
-<i class="fab fa-php"></i>
+
+✅ JavaScript / Jquery - Usado para fazer animações,redirecionar url, e alertas.
+✅ PHP - Usado para fazer todo o back-end do painel como, orientação a objetos.
+✅ SLQ - Usado para se comunicar com o banco de dados.
 
 
 <H1>Pré requisitos</H1>
 
 1 - Você vai precisar de uma hospedagem com banco de dados.
+2 - Caso você queira modificar o projeto basta usar o git clone https://github.com/lucasluna-dev/ControlPanel.git e usar o seu editor de codigo.
 
 <H1>Instalação</H1>
 
@@ -30,5 +28,3 @@
 
 5 - Na folha de estilo css você pode trocar as cores do site.
 
-</body>
-</html>

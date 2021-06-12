@@ -1,6 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+
 <H1>Projeto CRUD</H1>
 
 <P>Site com painel de controle onde podemos alterar os conteúdos do site. <br> Podemos cadastrar serviços,slide,depoimento de clientes e muito mais.</P>
+
+<H1>Features</H1>
+<i class="fab fa-js"></i>
+<i class="fab fa-php"></i>
+
 
 <H1>Pré requisitos</H1>
 
@@ -18,4 +30,5 @@
 
 5 - Na folha de estilo css você pode trocar as cores do site.
 
-<H3>FIM!</H3>
+</body>
+</html>

@@ -1,4 +1,5 @@
-
+# Big Game Survey
+[![NPM](https://img.shields.io/bower/l/lucasluna-dev?style=for-the-badge)](https://github.com/lucasluna-dev/ControlPanel/blob/master/LICENSE)
 
 <H1>Painel de controle</H1>
 

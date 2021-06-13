@@ -9,6 +9,7 @@
 <p>✅ JavaScript / Jquery - Usado para fazer animações,redirecionar url, e alertas.</p>
 <p>✅ PHP - Usado para fazer todo o back-end do painel.</p>
 <p>✅ SQL - Usado para se comunicar com o banco de dados.</p>
+<p>✅ CSS3 - Usado para fazer o estilo do site e sistema.</p>
 
 
 <H1>Pré requisitos</H1>
